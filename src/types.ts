@@ -6,7 +6,6 @@ export interface UserResponse {
 	error: Error | null;
 }
 
-
 export interface UserWithChats extends User {
 	chats: Chat[];
 }
